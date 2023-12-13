@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 350px;
+    height: 600px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.user-card {
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+
+  img {
+
+   width: 300px;
+   height: 300px;
+    margin-bottom: 12px;
+  }
+  h1  {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20px;
+    color: black;
+    margin: 4px 0;
+  }
+  p{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+  }
+
+ .pEmail{
+    text-transform: lowercase;
+    
+  }
+  .name-age-container {
+   
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 8px;
+  }
+
+   .pAge {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  
